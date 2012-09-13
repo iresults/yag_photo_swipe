@@ -1,0 +1,16 @@
+####################################################
+# General configuration root 
+#
+# @package YAG
+# @subpackage Typoscript
+####################################################
+
+# Include theme PhotoSwipe
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:yag_photo_swipe/Configuration/TypoScript/Themes/PhotoSwipe/Theme.ts">
+module.tx_yag.settings.themes.photoSwipe < plugin.tx_yag.settings.themes.photoSwipe
+
+
+# Include theme Fancy Photo Swipe
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:yag_photo_swipe/Configuration/TypoScript/Themes/FancyPhotoSwipe/Theme.ts">
+module.tx_yag.settings.themes.fancyPhotoSwipe < plugin.tx_yag.settings.themes.fancyPhotoSwipe
+
