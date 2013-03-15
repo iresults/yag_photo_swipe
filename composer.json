@@ -1,0 +1,14 @@
+{
+    "name": "iresults/yag_photo_swipe",
+    "description": "YAG Photo Swipe Integration",
+    "authors": [
+        {
+            "name": "Daniel Corn",
+            "email": "cod@iresults.li"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
